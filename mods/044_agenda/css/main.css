@@ -1,0 +1,92 @@
+/* CONTENT VIEWS */
+div[data-view='unique-small']{
+	margin: 0 auto;
+	max-width: 480px;
+}
+div[data-role='content'][data-view='multi'] > div[data-role='content'][data-view='small']{
+
+}
+div[data-role='grid']{
+	position: relative;
+	margin: 0 auto;
+}
+div[data-role='grid'] > div[data-role='grid_button']{
+	float: left;
+	border: 1px solid #044062;
+	margin-left: 5px;
+	margin-top: 5px;
+	width: 120px;
+	height: 100px;
+	border-radius: 10px;
+	padding: 0px;
+	background-image: linear-gradient(top, rgb(95,156,197) 34%, rgb(57,108,158) 67%);
+	background-image: -o-linear-gradient(top, rgb(95,156,197) 34%, rgb(57,108,158) 67%);
+	background-image: -moz-linear-gradient(top, rgb(95,156,197) 34%, rgb(57,108,158) 67%);
+	background-image: -webkit-linear-gradient(top, rgb(95,156,197) 34%, rgb(57,108,158) 67%);
+	background-image: -ms-linear-gradient(top, rgb(95,156,197) 34%, rgb(57,108,158) 67%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.34, rgb(95,156,197)),
+		color-stop(0.67, rgb(57,108,158))
+	);
+}
+div[data-role='grid'] > div[data-role='grid_button']:hover{
+	float: left;
+	border: 1px solid #044062;
+	margin-left: 5px;
+	margin-top: 5px;
+	width: 120px;
+	height: 100px;
+	border-radius: 10px;
+	padding: 0px;
+	background-image: linear-gradient(top, rgb(57,108,158) 34%, rgb(95,156,197) 67%);
+	background-image: -o-linear-gradient(top, rgb(57,108,158) 34%, rgb(95,156,197) 67%);
+	background-image: -moz-linear-gradient(top, rgb(57,108,158) 34%, rgb(95,156,197) 67%);
+	background-image: -webkit-linear-gradient(top, rgb(57,108,158) 34%, rgb(95,156,197) 67%);
+	background-image: -ms-linear-gradient(top, rgb(57,108,158) 34%, rgb(95,156,197) 67%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.34, rgb(57,108,158)),
+		color-stop(0.67, rgb(95,156,197))
+	);
+}
+div[data-role='grid'] > div[data-role='grid_button'] > a{
+	display: block;
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+div[data-role='grid'] > div[data-role='grid_button'] > a:hover{
+	color: #000;
+}
+div[data-role='grid'] > div[data-role='grid_button'] > a > .grid_button_icon{
+	position: relative;
+	top: 5px;
+	left: 28px;
+	width: 64px;
+	height: 64px;
+}
+div[data-role='grid'] > div[data-role='grid_button'] > a > span{
+	position: relative;
+	display: block;
+	top: 5px;
+	left: 0px;
+	width:100%;
+	text-align: center;
+}
+/* STYLES */
+#login_content_logo{
+	position: relative;
+	width: 100%;
+}

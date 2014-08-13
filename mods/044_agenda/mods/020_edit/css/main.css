@@ -1,0 +1,20 @@
+#client_list > li {
+	padding:0px;
+	border-bottom:0px;
+}
+li h3 {
+	position:	relative;
+	margin:0px;
+	margin-left:	20px;
+	top:		-12px;
+}
+li a{
+	position:	relative;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-top: 10px;
+	color: #fff;
+}
+.secret_tags {
+	display:none;
+}

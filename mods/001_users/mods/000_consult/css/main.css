@@ -1,0 +1,10 @@
+#client_list > li {
+	padding:0px;
+	border-bottom:0px;
+}
+#client_list > li > div > h3 {
+	margin:0px;
+}
+.secret_tags {
+	display:none;
+}

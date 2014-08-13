@@ -1,0 +1,6 @@
+.extrabut{
+	background:#fff;
+}
+.extrabut::hover{
+	background:#eee;
+}
